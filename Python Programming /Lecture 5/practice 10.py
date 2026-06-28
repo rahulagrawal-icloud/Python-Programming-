@@ -1,0 +1,6 @@
+# WAP to make multiplication table of n number 
+
+n= int(input("Enter the number :-"))
+
+for i in range(1,11,1):
+   print(n,"X",i,"=",i*n)
